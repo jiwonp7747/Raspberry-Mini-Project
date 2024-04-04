@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>read</title>
+<link rel="stylesheet" type="text/css" href="/static/tablestyle.css">
+</head>
+<body>
+<h3>독서 활동</h3>
+<form action="/" method="get">
+<input type="submit" value="메인으로">
+</form>
+<table>
+    <thead>
+        <tr><th>시작 시간</th><th>수행 시간</th><th>페이지</th></tr>
+    </thead>
+    <tbody>
+        {% for key, value in dict.items() %}
+    <tr>
+        <td>{{ keys }}</td>      
+        <td>{{ value.executionTime }}</td>
+        <td>{{ value.pageCount }}</td>
+    </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</br>
+</body>
+</html>
