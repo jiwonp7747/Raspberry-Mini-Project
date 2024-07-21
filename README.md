@@ -1,4 +1,5 @@
-# Raspberry-Mini-Project
-This project uses Raspberry pi 
-This is a system to help you read books
-Like reading page count
+# 라즈베리파이 미니 프로젝트
+
+1. 자동으로 읽은 책 페이지 수 카운트
+2. 읽은 페이지 수, 시간 기록하여 확인
+3. 주변 밝기 조절 시스템
